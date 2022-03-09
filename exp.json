@@ -1,0 +1,87 @@
+[
+    {
+        "id": "炼气境1",
+        "level": "炼气境",
+        "days": "this.player.life <= 20",
+        "exp": "Math.floor(Math.random()*20+10)"
+    },
+    {
+        "id": "炼气境2",
+        "level": "炼气境",
+        "days": "this.player.life > 20",
+        "exp": "Math.floor(Math.random()*20+10)"
+    },
+    {
+        "id": "筑基境1",
+        "level": "筑基境",
+        "days": "this.player.life <= 20",
+        "exp": "Math.floor(Math.random()*40+20)"
+    },
+    {
+        "id": "筑基境2",
+        "level": "筑基境",
+        "days": "this.player.life > 20 && this.player.life <= 50",
+        "exp": "Math.floor(Math.random()*45+12)"
+    },
+    {
+        "id": "筑基境3",
+        "level": "筑基境",
+        "days": "this.player.life > 50",
+        "exp": "Math.floor(Math.random()*50+25)"
+    },
+    {
+        "id": "金丹境1",
+        "level": "金丹境",
+        "days": "this.player.life <= 50",
+        "exp": "Math.floor(Math.random()*50+25)"
+    },
+    {
+        "id": "金丹境2",
+        "level": "金丹境",
+        "days": "this.player.life > 50 && this.player.life <= 70",
+        "exp": "Math.floor(Math.random()*55+27)"
+    },
+    {
+        "id": "金丹境3",
+        "level": "金丹境",
+        "days": "this.player.life > 70",
+        "exp": "Math.floor(Math.random()*60+30)"
+    },
+    
+    {
+        "id": "元婴境1",
+        "level": "元婴境",
+        "days": "this.player.life <= 70",
+        "exp": "Math.floor(Math.random()*70+35)"
+    },
+    {
+        "id": "元婴境2",
+        "level": "元婴境",
+        "days": "this.player.life > 70 && this.player.life <= 80",
+        "exp": "Math.floor(Math.random()*75+28)"
+    },
+    {
+        "id": "元婴境3",
+        "level": "元婴境",
+        "days": "this.player.life > 80",
+        "exp": "Math.floor(Math.random()*80+40)"
+    },
+    {
+        "id": "化神境1",
+        "level": "化神境",
+        "days": "this.player.life <= 90",
+        "exp": "Math.floor(Math.random()*100+50)"
+    },
+    {
+        "id": "化神境2",
+        "level": "化神境",
+        "days": "this.player.life > 90 && this.player.life <= 95",
+        "exp": "Math.floor(Math.random()*110+55)"
+    },
+    {
+        "id": "化神境3",
+        "level": "化神境",
+        "days": "this.player.life > 95",
+        "exp": "Math.floor(Math.random()*150+75)"
+    }
+]

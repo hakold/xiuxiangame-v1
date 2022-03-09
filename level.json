@@ -1,0 +1,51 @@
+[
+    {
+        "id": "1",
+        "name": "炼气境",
+        "need_exp": "this.player.exp >= 0",
+        "nextlevel_exp": "this.player.exp >= 500",
+        "nextlevel_max_life": "this.player.max_life += 100",
+        "next_level": "筑基境"
+    },
+    {
+        "id": "2",
+        "name": "筑基境",
+        "need_exp": "this.player.exp >= 500",
+        "nextlevel_exp": "this.player.exp >= 2000",
+        "nextlevel_max_life": "this.player.max_life += 300",
+        "next_level": "金丹境"
+        
+    },
+    {
+        "id": "3",
+        "name": "金丹境",
+        "need_exp": "this.player.exp >= 2000",
+        "nextlevel_exp": "this.player.exp >= 4000",
+        "nextlevel_max_life": "this.player.max_life += 500",
+        "next_level": "元婴境"
+    },
+    {
+        "id": "4",
+        "name": "元婴境",
+        "need_exp": "this.player.exp >= 4000",
+        "nextlevel_exp": "this.player.exp >= 7000",
+        "nextlevel_max_life": "this.player.max_life += 500",
+        "next_level": "化神境"
+    },
+    {
+        "id": "5",
+        "name": "化神境",
+        "need_exp": "this.player.exp >= 7000",
+        "nextlevel_exp": "this.player.exp >= 10000",
+        "nextlevel_max_life": "this.player.max_life += 1000",
+        "next_level": "飞升"
+    },
+    {
+        "id": "6",
+        "name": "飞升",
+        "need_exp": "this.player.exp >= 10000",
+        "nextlevel_exp": "this.player.exp >= 99999",
+        "nextlevel_max_life": "this.player.max_life += 1000",
+        "next_level": "成仙"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "id": "慕兰草原",
+        "need_level": "this.player.level == '炼气境'",
+        "need_hp": "this.player.hp >= 80",
+        "behavior_success": "adventure_01_success",
+        "behavior_fail": "adventure_01_fail",
+        "exp_reward": 55
+    },
+    {
+        "id": "乱星海",
+        "need_level": "this.player.level == '炼气境' || this.player.level == '筑基境'",
+        "need_hp": "this.player.hp >= 150",
+        "behavior_success": "adventure_02_success",
+        "behavior_fail": "adventure_02_fail",
+        "exp_reward": 65
+    },
+    {
+        "id": "坠龙荒野",
+        "need_level": "this.player.level == '炼气境' || this.player.level == '筑基境' || this.player.level == '金丹境'",
+        "need_hp": "this.player.hp >= 300",
+        "behavior_success": "adventure_03_success",
+        "behavior_fail": "adventure_03_fail",
+        "exp_reward": 75
+    },
+    {
+        "id": "风暴峡湾",
+        "need_level": "this.player.level == '炼气境' || this.player.level == '筑基境' || this.player.level == '金丹境' || this.player.level == '元婴境'",
+        "need_hp": "this.player.hp >= 600",
+        "behavior_success": "adventure_04_success",
+        "behavior_fail": "adventure_04_fail",
+        "exp_reward": 85
+    },
+    {
+        "id": "北极冰宫",
+        "need_level": "this.player.level == '炼气境' || this.player.level == '筑基境' || this.player.level == '金丹境' || this.player.level == '元婴境' || this.player.level == '化神境' || this.player.level == '飞升'",
+        "need_hp": "this.player.hp >= 1000",
+        "behavior_success": "adventure_05_success",
+        "behavior_fail": "adventure_05_fail",
+        "exp_reward": 95
+    }
+]
